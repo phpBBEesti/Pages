@@ -6,6 +6,7 @@
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -39,11 +40,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// ACP modules
-	'ACP_PAGES'				=> 'Pages',
-	'ACP_PAGES_MANAGE'		=> 'Manage Pages',
+	'ACP_PAGES'				=> 'Leheküljed',
+	'ACP_PAGES_MANAGE'		=> 'Halda lehekülgi',
 
 	// Logs
-	'ACP_PAGES_ADDED_LOG'	=> '<strong>Page added</strong><br />» %s',
-	'ACP_PAGES_EDITED_LOG'	=> '<strong>Page edited</strong><br />» %s',
-	'ACP_PAGES_DELETED_LOG'	=> '<strong>Page deleted</strong><br />» %s',
+	'ACP_PAGES_ADDED_LOG'	=> '<strong>Lehekülg lisatud</strong><br />» %s',
+	'ACP_PAGES_EDITED_LOG'	=> '<strong>Lehekülg muudetud</strong><br />» %s',
+	'ACP_PAGES_DELETED_LOG'	=> '<strong>Lehekülg kustutatud</strong><br />» %s',
 ));
