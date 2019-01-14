@@ -6,6 +6,7 @@
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -48,11 +49,11 @@ if (empty($lang) || !is_array($lang))
 * Translators: Feel free to not translate these language strings
 */
 $lang = array_merge($lang, array(
-	'EXCEPTION_FIELD_MISSING'		=> 'Required field missing',
-	'EXCEPTION_INVALID_ARGUMENT'	=> 'Invalid argument specified for `%1$s`. Reason: %2$s',
-	'EXCEPTION_OUT_OF_BOUNDS'		=> 'The field `%1$s` received data beyond its bounds',
-	'EXCEPTION_TOO_LONG'			=> 'The input was longer than the maximum length.',
-	'EXCEPTION_NOT_UNIQUE'			=> 'The input was not unique.',
-	'EXCEPTION_UNEXPECTED_VALUE'	=> 'The field `%1$s` received unexpected data. Reason: %2$s',
-	'EXCEPTION_ILLEGAL_CHARACTERS'	=> 'The input contained illegal characters.',
+	'EXCEPTION_FIELD_MISSING'		=> 'Vajalik väli puudub',
+	'EXCEPTION_INVALID_ARGUMENT'	=> '`%1$s` jaoks on määratud vale argument. Põhjus: %2$s',
+	'EXCEPTION_OUT_OF_BOUNDS'		=> 'Väli `%1$s` on saanud andmeid väljast poolt',
+	'EXCEPTION_TOO_LONG'			=> 'Sisend oli pikem kui maksimaalne pikkus.',
+	'EXCEPTION_NOT_UNIQUE'			=> 'Sisend ei olnud ainulaadne.',
+	'EXCEPTION_UNEXPECTED_VALUE'	=> 'Väli `%1$s` sai ootamatuid andmeid. Põhjus: %2$s',
+	'EXCEPTION_ILLEGAL_CHARACTERS'	=> 'Sisend sisaldas mittesobivaid märke.',
 ));
