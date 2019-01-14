@@ -6,6 +6,7 @@
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 /**
@@ -38,5 +39,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PAGES_VIEWONLINE'		=> 'Viewing %s',
+	'PAGES_VIEWONLINE'		=> 'Vaatamisi %s',
 ));
